@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download BargainBee Extension</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-yellow-50">
+    <header class="bg-yellow-400 shadow-md">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="bargainBee_logo.png" alt="BargainBee Logo" class="h-10 w-10 mr-3">
+                <span class="text-2xl font-bold text-gray-800">BargainBee</span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-6 py-24">
+        <section class="text-center mb-16">
+            <h1 class="text-4xl font-bold text-gray-800 mb-6">Thank You for Registering!</h1>
+            <p class="text-xl text-gray-600 mb-12">You're just a few steps away from saving money while you shop.</p>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Download and Install BargainBee</h2>
+            <div class="bg-white p-10 rounded-lg shadow-md max-w-2xl mx-auto">
+                <ol class="list-decimal list-inside space-y-6">
+                    <li class="text-gray-700">
+                        <span class="font-semibold">Download the extension:</span>
+                        <a href="#" id="downloadBtn" class="ml-2 bg-yellow-400 text-gray-800 px-4 py-2 rounded-full font-semibold hover:bg-yellow-500 transition duration-300">Download BargainBee</a>
+                    </li>
+                    <li class="text-gray-700"><span class="font-semibold">Open your browser's extension page:</span>
+                        <ul class="list-disc list-inside ml-6 mt-2">
+                            <li>For Chrome: Go to chrome://extensions/</li>
+                            <li>For Firefox: Go to about:addons</li>
+                            <li>For Edge: Go to edge://extensions/</li>
+                        </ul>
+                    </li>
+                    <li class="text-gray-700"><span class="font-semibold">Enable "Developer mode" (if required)</span></li>
+                    <li class="text-gray-700"><span class="font-semibold">Drag and drop</span> the downloaded BargainBee file into the extensions page</li>
+                    <li class="text-gray-700"><span class="font-semibold">Confirm the installation</span> when prompted</li>
+                    <li class="text-gray-700"><span class="font-semibold">Pin the BargainBee extension</span> to your browser's toolbar for easy access</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="text-center">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Ready to Start Saving?</h2>
+            <p class="text-gray-600 mb-8">Click the BargainBee icon in your browser toolbar to log in and start saving money on your online purchases!</p>
+            <a href="index.html" class="bg-gray-800 text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-700 transition duration-300">Back to Home</a>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8 mt-16">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2023 BargainBee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('downloadBtn').addEventListener('click', function(e) {
+            e.preventDefault();
+            alert('Download started! (This is a simulation)');
+            // In a real scenario, you would initiate the actual file download here
+        });
+    </script>
+</body>
+</html>
